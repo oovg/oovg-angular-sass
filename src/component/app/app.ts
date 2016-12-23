@@ -6,6 +6,7 @@ import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
 import {NavigationComponent} from '../navigation/navigation';
 import {HomePageComponent}   from '../page-home/page-home';
 import {AboutPageComponent}  from '../page-about/page-about';
+import {JournalPageComponent}  from '../page-journal/page-journal';
 
 @Component({
     selector    : 'my-app',
@@ -22,6 +23,11 @@ import {AboutPageComponent}  from '../page-about/page-about';
 		path      : '/about',
 		name      : 'About',
 		component : AboutPageComponent
+    },
+    { 
+		path      : '/journal',
+		name      : 'Journal',
+		component : JournalPageComponent
 	}
 ])
 export class AppComponent { }

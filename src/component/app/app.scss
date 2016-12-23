@@ -1,4 +1,19 @@
 body {
-	color: green;
-	height: 100%;
+  font-family: 'sofia-pro', sans-serif;
+  color: #ccc;
+  height: 100%;
+  font-weight: 500;
+}
+
+// Typography
+
+// Links
+
+a { 
+  text-decoration: none;
+  border-bottom: 2px solid;
+  color: salmon;
+  &:hover {
+    color: teal;
+  }
 }
