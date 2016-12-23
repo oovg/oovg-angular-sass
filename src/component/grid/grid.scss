@@ -1,0 +1,12 @@
+// Grid
+
+.grid {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: auto;
+  .item {
+    width: 25%;
+    height: auto;
+  }
+}
