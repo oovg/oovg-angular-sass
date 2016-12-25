@@ -4,8 +4,7 @@
   "description": "Angular2Boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test",
-    "start": "gulp serve"
+    "test": "gulp test"
   },
    "dependencies": {
     "angular2": "2.0.0-beta.0",
