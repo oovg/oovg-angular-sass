@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "start": "gulp"
+    "start": "gulp serve"
   },
    "dependencies": {
     "angular2": "2.0.0-beta.0",
