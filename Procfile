@@ -1,1 +1,1 @@
-web: node ../dist/js/main.js
+web: node main.js
